@@ -1,0 +1,24 @@
+{
+  "name": "blogswithvuepress",
+  "version": "1.0.0",
+  "description": "使用vuePress生成博客",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoeyCurry/blogsWithVuePress.git"
+  },
+  "author": "jiangjun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoeyCurry/blogsWithVuePress/issues"
+  },
+  "homepage": "https://github.com/JoeyCurry/blogsWithVuePress#readme",
+  "devDependencies": {
+    "vuepress": "^0.8.4"
+  }
+}
