@@ -15,7 +15,7 @@ footer: MIT Licensed | Copyright © 2018-present BearTeam | based VuePress
 
 ### Blog/博客&分享
 
-[ESLint使用帮助](/blog/ESLintHelp.html)
+[ESLint使用帮助](/blog/javascript/ESLintHelp.html)
 
 [查看所有博客](/blog/)
 
