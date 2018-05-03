@@ -1,5 +1,12 @@
 module.exports = {
-    title: 'Hello VuePress',
+    title: '华图精选',
     description: 'Just playing around',
-    base: '/myBlogs/'
+    themeConfig: {
+        nav: [
+            { text: 'Home', link: '/' },
+            { text: 'Guide', link: '/guide/' },
+            // { text: 'Action', link: '/action/' },
+            { text: 'VuePress', link: 'https://vuepress.vuejs.org/' },
+        ]
+    }
 }
