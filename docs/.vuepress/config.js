@@ -1,12 +1,20 @@
 module.exports = {
-    title: '华图精选',
-    description: 'Just playing around',
+    title: 'BearTeam',
+    description: 'JS/PM/UED/LIFE',
     themeConfig: {
         nav: [
-            { text: 'Home', link: '/' },
-            { text: 'Guide', link: '/guide/' },
-            // { text: 'Action', link: '/action/' },
-            { text: 'VuePress', link: 'https://vuepress.vuejs.org/' },
-        ]
+            { text: 'Blog', link: '/blog/' },
+            { text: 'GitHub精选', link: '/github/' },
+            { text: 'Bear周刊', link: '/weekly/' },
+            { text: 'About US', link: '/weekly/' },
+        ],
+    },
+    chainWebpack: config => {
+        config.module
+            .rule('sass')
+            .test(/\.sass$/)
+            .use('sass-loader')
+            .loader('sass-loader')
+            .end()
     }
 }

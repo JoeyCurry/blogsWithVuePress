@@ -1,25 +1,34 @@
 ---
 home: true
-actionText: Get Started →
-actionLink: /guide/
+heroImage: /img/bearteam.gif
+# actionText: Get Started →
+# actionLink: /guide/
 features:
-- title: Simplicity First
-  details: Minimal setup with markdown-centered project structure helps you focus on writing.
-- title: Vue-Powered
-  details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
-- title: Performant
-  details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
-footer: MIT Licensed | Copyright © 2018-present Evan You
+- title: Blog/博客&分享
+  details: 技术文章，领读好文，健康生活，人间百态
+- title: GitHub/精选
+  details: 一起欢快的来抄代码啦
+- title: BearWeekly/Bear周刊
+  details: 每周给你想看的Bear
+footer: MIT Licensed | Copyright © 2018-present BearTeam | based VuePress
 ---
 
-### 起步就像数1，2，3一样容易
+### Blog/博客&分享
 
-```bash
-npm install -g vuepress
-```
+[ESLint使用帮助](/blog/ESLintHelp.html)
 
-::: warning 兼容性注意事项 VuePress 要求 
+[查看所有博客](/blog/)
 
-Node.js >= 8
+### GitHub/精选
 
-:::
+[第一篇精选]()
+
+[查看所有精选](/github/)
+
+### BearWeekly/Bear周刊
+
+还没开刊呢，给我发邮件来投稿吧，Bear
+
+`jiangjun@huatu.com`
+
+[查看所有周刊](/weekly/)
