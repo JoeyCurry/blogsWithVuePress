@@ -1,6 +1,6 @@
 {
   "name": "blogswithvuepress",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "使用vuePress生成博客",
   "main": "index.js",
   "scripts": {
