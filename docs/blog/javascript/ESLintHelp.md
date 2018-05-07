@@ -1,6 +1,6 @@
 ### ESLint 使用帮助
 
-> author: `江军 2018-05-03 16:10`
+<author author="江军" date="2018-05-03 16:10" />
 
 <tag 
     title="javascript"
