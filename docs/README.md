@@ -1,6 +1,7 @@
 ---
 home: true
 heroImage: /img/bearteam.gif
+pageClass: custom-main-page-class
 # actionText: Get Started →
 # actionLink: /guide/
 features:

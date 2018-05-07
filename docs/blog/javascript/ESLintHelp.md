@@ -2,6 +2,18 @@
 
 > author: `江军 2018-05-03 16:10`
 
+<tag 
+    title="javascript"
+    path="/blog/javascript/" />
+
+<tag 
+    title="eslint" />
+
+<tag 
+    title="代码规范" />
+
+<br clear="both" />
+
 #### 推荐使用`VSCode`，本文档使用`VSCode`进行说明，其他编辑器自行处理
 
 #### 规则使用`eslint-config-alloy`规范，如对此规范不了解[可点击这里查看](https://github.com/AlloyTeam/eslint-config-alloy)
@@ -12,7 +24,7 @@ ___
 
 2.添加`eslint-config-alloy`
 
-```
+```javascript
 npm install --save-dev eslint babel-eslint eslint-config-alloy
 
 with vue:
@@ -29,7 +41,7 @@ npm install --save-dev eslint typescript typescript-eslint-parser eslint-plugin-
 
 .eslintrc:
 
-```
+```javascript
 module.exports = {
     extends: [
         //'eslint-config-alloy',
@@ -61,7 +73,7 @@ module.exports = {
 ```
 .eslintignore:
 
-```
+```javascript
 /build
 /dist
 ...不使用规则检查的文件
@@ -69,7 +81,7 @@ module.exports = {
 
 4.在`VSCode`设置里打开eslint检查与保存时自动修复
 
-```
+```javascript
     "eslint.autoFixOnSave": true,
     "eslint.validate": [
         "javascript",
@@ -93,7 +105,7 @@ module.exports = {
 
 5.如果某些代码不想使用某些规则来规范，可以在代码前添加注释，例如：
 
-```
+```javascript
 /* eslint-disable no-new */
 	
 或

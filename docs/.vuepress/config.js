@@ -16,6 +16,7 @@ module.exports = {
                     '/blog/',
                     '/blog/javascript/',
                     '/blog/ued/',
+                    '/blog/life/',
                     '/blog/other/',
                 ]
             },
