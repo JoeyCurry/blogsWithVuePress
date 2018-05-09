@@ -1,6 +1,9 @@
 module.exports = {
     title: 'BearTeam',
     description: '来一起坐下来谈谈情，聊聊天',
+    head: [
+        ['link', { rel: 'icon', href: `/img/favicon.ico` }],
+    ],
     themeConfig: {
         nav: [
             { text: 'Blog', link: '/blog/' },
