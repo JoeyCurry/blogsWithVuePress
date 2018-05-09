@@ -1,10 +1,12 @@
 ### CRM联调工作安排及上线时间排期
 
+<author author="江军" date="2018-05-09 18:52" />
+
 <tag 
     title="其他"
     path="/blog/other/" />
 
-<tag title="CRM" />
+<tag title="crm" />
 
 <tag title="工作安排" />
 

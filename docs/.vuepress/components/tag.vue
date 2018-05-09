@@ -37,15 +37,8 @@ export default {
         width: fit-content;
         float: left;
         margin-right: 0.4rem;
+        height: 1.2rem;
         cursor: pointer;
-        &:after{
-            content:".";
-            clear:both;
-            display:block;
-            height:0;
-            overflow:hidden;
-            visibility:hidden;
-        }
         &:hover {
             background:lighten($color: #3eaf7c, $amount: 10)
         }
@@ -65,6 +58,7 @@ export default {
         width: fit-content;
         float: left;
         margin-right: 0.4rem;
+        height: 1.2rem;
         cursor: default
     }
 </style>
