@@ -29,8 +29,8 @@
 ---- | ---- | ----
 ~~5.10周四~~ | ~~系统管理~~ | <font color="#dd0000">done</font>
 ~~5.11周五~~ | ~~商机录入、批量导入~~ | <font color="#dd0000">done</font>
-5.14周一 | 搜索、主控台=>公海，私有库，已完成 | <font color="blue">doing...</font>
-5.15周二 | 商机详情 | :lock:
+5.14周一 | 搜索、主控台=>公海，私有库，已完成 | <font color="blue">done</font>
+5.15周二 | 商机详情 | <font color="blue">doing</font>
 5.16周三 | 现场预约、营销管理、商机管理 | :lock:
 5.17周四 | 主控台=>工作台 | :lock:
 5.18周五 | 个人报表、报表统计 | :lock:
