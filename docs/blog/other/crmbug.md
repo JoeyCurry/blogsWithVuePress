@@ -24,7 +24,7 @@ report/order.json
 
 #### 20. 主控台 ==> 日历
 
-日历统计出的现场预约数据不对（同商机任务统计错误）
+日历统计出的现场预约数据不对~~（同商机任务统计错误）~~
 
 :::danger 接口
 work/getMyCalendar.json
@@ -34,7 +34,7 @@ work/getMyCalendar.json
 
 #### 19. 主控台 ==> 商机任务
 
-3日内预约提醒商机及转现场预约商机统计数据错误(易君说是因为预约表里没有接待人id，问题应该在跟进的接口里)
+3日内预约提醒商机及转现场预约商机统计数据错误~~(易君说是因为预约表里没有接待人id，问题应该在跟进的接口里)~~
 
 :::danger 接口
 work/getMyTask.json
@@ -48,7 +48,9 @@ work/getMyTask.json
 
 #### 17. 商机查询列表 ==> 今日新出库商机(outCount)
 
-在没有数据时报"业务处理异常"
+1. 在没有数据时报"业务处理异常"
+
+2. 释放时间`releaseTime`字段缺失
 
 :::danger 接口
 work/myTask/list.json
