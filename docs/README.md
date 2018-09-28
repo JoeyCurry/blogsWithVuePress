@@ -16,9 +16,7 @@ footer: MIT Licensed | Copyright © 2018-present BearTeam | based VuePress
 
 ### Blog/博客&分享
 
-[CRM联调工作安排及上线时间排期](/blog/other/crm.html)
-
-[CRM联调问题记录](/blog/other/crmbug.html)
+[ESLint 使用帮助](/blog/javascript/ESLintHelp.html)
 
 [查看所有博客](/blog/)
 
