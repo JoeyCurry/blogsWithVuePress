@@ -18,6 +18,8 @@ footer: MIT Licensed | Copyright © 2018-present BearTeam | based VuePress
 
 [ESLint 使用帮助](/blog/javascript/ESLintHelp.html)
 
+[脚手架&文档化](/blog/other/tutu-cli.html)
+
 [查看所有博客](/blog/)
 
 ### GitHub/精选
